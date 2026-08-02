@@ -70,13 +70,24 @@ a { text-decoration: none; color: inherit; }
   padding-bottom: 16px;
 }
 .brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.brand-logo {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.brand-name {
   font-family: var(--font-title);
-  font-weight: 800;
-  font-size: 1.3rem;
+  font-weight: 700;
+  font-size: 1.15rem;
   letter-spacing: 0.02em;
   color: var(--ink);
 }
-.brand span { color: var(--red); }
+.brand-name b { color: var(--red); font-weight: 800; }
 .nav { display: flex; gap: 28px; font-weight: 600; }
 .nav a:hover { color: var(--red); }
 .nav-cta { padding: 10px 20px; }
@@ -261,8 +272,9 @@ a { text-decoration: none; color: inherit; }
   flex-wrap: wrap;
   gap: 14px;
 }
-.footer-brand { font-family: var(--font-title); font-weight: 800; }
-.footer-brand span { color: var(--red); }
+.footer-brand { display: flex; align-items: center; gap: 10px; font-family: var(--font-title); font-weight: 700; }
+.footer-brand b { color: var(--red); font-weight: 800; }
+.footer-logo { width: 36px; height: 36px; border-radius: 50%; object-fit: cover; }
 .footer-links { display: flex; gap: 18px; }
 .footer-links a:hover { color: var(--red); }
 
