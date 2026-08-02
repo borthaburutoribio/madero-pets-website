@@ -3,11 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Madero Pets | Pet shop, peluquería y veterinaria en Recoleta y Puerto Madero</title>
-<meta name="description" content="Madero Pets: alimentos, accesorios, baño y peluquería, y veterinaria para tu mascota. Stock permanente de las mejores marcas. Sucursales en Recoleta y Puerto Madero.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<title>Madero Pets | Alimento, baño y veterinaria — Recoleta y Puerto Madero</title>
+<meta name="description" content="Madero Pets: alimento y accesorios con stock permanente, baño y peluquería, y veterinaria. Dos sucursales en Recoleta y Puerto Madero, Buenos Aires.">
 <link rel="icon" href="assets/img/logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -16,7 +17,7 @@
   <div class="container header-inner">
     <a href="#inicio" class="brand">
       <img src="assets/img/logo.jpg" alt="Madero Pets" class="brand-logo">
-      <span class="brand-name">MADERO<b>PETS</b></span>
+      <span class="brand-name">Madero <em>Pets</em></span>
     </a>
     <nav class="nav" id="nav">
       <a href="#servicios">Servicios</a>
@@ -24,7 +25,7 @@
       <a href="#resenas">Reseñas</a>
       <a href="#sucursales">Sucursales</a>
     </nav>
-    <a href="#sucursales" class="btn btn-primary nav-cta">Escribinos</a>
+    <a href="#sucursales" class="nav-cta">Sucursales →</a>
     <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
       <span></span><span></span><span></span>
     </button>
@@ -35,109 +36,120 @@
 
   <section class="hero" id="inicio">
     <div class="hero-media">
-      <img src="assets/img/puerto-madero-fachada.jpg" alt="Sucursal Puerto Madero de Madero Pets, vidriera con mural de bulldog francés">
+      <img src="assets/img/puerto-madero-fachada.jpg" alt="Retrato de bulldog francés en la vidriera de Madero Pets, Puerto Madero">
     </div>
     <div class="hero-content container">
-      <span class="badge-rating">Recoleta y Puerto Madero</span>
-      <h1>Todo para tu mascota, con stock permanente</h1>
-      <p class="hero-tagline">Alimentos, accesorios, baño &amp; peluquería y veterinaria. Royal Canin, Pro Plan, Kong y más marcas, siempre disponibles. Delivery gratis a toda la ciudad.</p>
+      <span class="tag">Ficha · Recoleta + Puerto Madero</span>
+      <h1>Alimento, baño y veterinaria para tu mascota</h1>
+      <p class="hero-tagline">Dos sucursales con stock permanente de las marcas líderes, servicio de peluquería y atención veterinaria.</p>
       <div class="hero-actions">
         <a href="#sucursales" class="btn btn-primary">Ver sucursales</a>
-        <a href="#servicios" class="btn btn-outline">Ver servicios</a>
+        <a href="#servicios" class="btn btn-ghost">Ver servicios</a>
       </div>
     </div>
   </section>
 
   <section class="servicios" id="servicios">
     <div class="container">
-      <h2>Nuestros servicios</h2>
-      <div class="serv-grid">
-        <div class="serv-card">
-          <span class="serv-icon">🍖</span>
-          <h3>Alimentos &amp; Accesorios</h3>
-          <p>Stock permanente de todas las marcas líderes, para perros y gatos.</p>
+      <span class="tag tag-on-ink">Lo que hacemos</span>
+      <h2>Tres servicios, un mismo local</h2>
+      <div class="ticket-row">
+        <div class="ticket">
+          <div class="ticket-notch"></div>
+          <h3>Alimento &amp; accesorios</h3>
+          <p>Royal Canin, Pro Plan, Kong y el resto de las marcas líderes, siempre en stock.</p>
         </div>
-        <div class="serv-card">
-          <span class="serv-icon">🛁</span>
-          <h3>Baño &amp; Peluquería</h3>
-          <p>Corte y baño con atención dedicada, turno previo por WhatsApp.</p>
+        <div class="ticket">
+          <div class="ticket-notch"></div>
+          <h3>Baño &amp; peluquería</h3>
+          <p>Corte y baño con turno previo — coordinás por WhatsApp con cada sucursal.</p>
         </div>
-        <div class="serv-card">
-          <span class="serv-icon">🩺</span>
+        <div class="ticket">
+          <div class="ticket-notch"></div>
           <h3>Veterinaria</h3>
-          <p>Consultas, vacunación y asesoramiento profesional.</p>
-        </div>
-        <div class="serv-card">
-          <span class="serv-icon">🚚</span>
-          <h3>Delivery Gratis</h3>
-          <p>Envíos sin cargo a toda la ciudad de Buenos Aires.</p>
+          <p>Consultas, vacunación y asesoramiento profesional en el mismo local.</p>
         </div>
       </div>
+      <p class="delivery-note">Delivery gratis a toda la ciudad de Buenos Aires.</p>
     </div>
   </section>
 
   <section class="marcas" id="marcas">
     <div class="container">
-      <h2>Las mejores marcas, siempre en stock</h2>
-      <div class="marcas-grid">
-        <span>Royal Canin</span>
-        <span>Purina Pro Plan</span>
-        <span>Vitalcan</span>
-        <span>Dog Chow</span>
-        <span>Cat Chow</span>
-        <span>Pedigree</span>
-        <span>Sieger</span>
-        <span>Kong</span>
-        <span>Cancat</span>
-        <span>Skudo</span>
-      </div>
+      <span class="tag">En stock permanente</span>
+      <ul class="marcas-ledger">
+        <li>Royal Canin</li>
+        <li>Purina Pro Plan</li>
+        <li>Vitalcan</li>
+        <li>Dog Chow</li>
+        <li>Cat Chow</li>
+        <li>Pedigree</li>
+        <li>Sieger</li>
+        <li>Kong</li>
+        <li>Cancat</li>
+        <li>Skudo</li>
+      </ul>
     </div>
   </section>
 
   <section class="galeria">
-    <div class="container">
-      <div class="galeria-grid">
+    <div class="container galeria-grid">
+      <figure class="galeria-item galeria-tall">
         <img src="assets/img/recoleta-fachada.png" alt="Fachada de la sucursal Recoleta de Madero Pets, Juncal 1350" loading="lazy">
+        <figcaption>Recoleta · Juncal 1350</figcaption>
+      </figure>
+      <figure class="galeria-item">
         <img src="assets/img/puerto-madero-interior.jpg" alt="Interior de la sucursal Puerto Madero, estanterías con alimento balanceado" loading="lazy">
+        <figcaption>Puerto Madero · vidriera</figcaption>
+      </figure>
+      <figure class="galeria-item">
         <img src="assets/img/puerto-madero-detalle.png" alt="Exhibidor de accesorios y comederos en Madero Pets" loading="lazy">
-      </div>
+        <figcaption>Accesorios en salón</figcaption>
+      </figure>
     </div>
   </section>
 
   <section class="resenas" id="resenas">
     <div class="container">
-      <h2>Lo que dicen nuestros clientes</h2>
+      <span class="tag">Lo que dicen</span>
+      <h2>Opiniones de cada sucursal</h2>
       <div class="resenas-branches">
         <div class="resenas-branch">
-          <h3>Recoleta <span class="rating-pill">★ 4.0 · 22 reseñas</span></h3>
-          <div class="reviews-grid">
+          <div class="resenas-branch-head">
+            <h3>Recoleta</h3>
+            <span class="rating-mono">4.0 — 22 reseñas</span>
+          </div>
+          <div class="reviews-stack">
             <blockquote class="review-card">
-              <p>"Lindo lugar con variedad de productos, dos personas atendiendo muy amables que resolvieron rápidamente lo que necesitaba dándome opciones."</p>
+              <p>Lindo lugar con variedad de productos, dos personas atendiendo muy amables que resolvieron rápidamente lo que necesitaba dándome opciones.</p>
               <cite>Patricio Lalor <span>· Local Guide</span></cite>
             </blockquote>
             <blockquote class="review-card">
-              <p>"Excelente variedad de productos. Muy buena atención."</p>
+              <p>Excelente variedad de productos. Muy buena atención.</p>
               <cite>Paula Baldomir</cite>
             </blockquote>
             <blockquote class="review-card">
-              <p>"Buena atención, el servicio de baño es excelente."</p>
+              <p>Buena atención, el servicio de baño es excelente.</p>
               <cite>Santiago Camacho</cite>
             </blockquote>
           </div>
         </div>
         <div class="resenas-branch">
-          <h3>Puerto Madero <span class="rating-pill">★ 4.0 · 264 reseñas</span></h3>
-          <div class="reviews-grid">
+          <div class="resenas-branch-head">
+            <h3>Puerto Madero</h3>
+            <span class="rating-mono">4.0 — 264 reseñas</span>
+          </div>
+          <div class="reviews-stack">
             <blockquote class="review-card">
-              <p>"Llevo a Canela a cortarse con Génesis y estoy muy conforme. Siempre sale hermosa."</p>
+              <p>Llevo a Canela a cortarse con Génesis y estoy muy conforme. Siempre sale hermosa.</p>
               <cite>Maria Gonzalez</cite>
             </blockquote>
             <blockquote class="review-card">
-              <p>"Muy buena atención, y de 10. Génesis que lo baña a mi Pepe lo deja impecable, una genia."</p>
+              <p>Muy buena atención, y de 10. Génesis que lo baña a mi Pepe lo deja impecable, una genia.</p>
               <cite>Agustín Plasencia</cite>
             </blockquote>
             <blockquote class="review-card">
-              <p>"Espectacular el servicio de peluquería. La empatía con el perro y el cariño y conocimiento me impresionó."</p>
+              <p>Espectacular el servicio de peluquería. La empatía con el perro y el cariño y conocimiento me impresionó.</p>
               <cite>Sasha Bayard</cite>
             </blockquote>
           </div>
@@ -148,22 +160,20 @@
 
   <section class="sucursales" id="sucursales">
     <div class="container">
-      <h2>Nuestras sucursales</h2>
+      <span class="tag">Dónde estamos</span>
+      <h2>Dos sucursales</h2>
       <div class="sucursales-grid">
 
         <div class="sucursal-card">
+          <img src="assets/img/logo.jpg" alt="" class="sucursal-seal" aria-hidden="true">
           <h3>Recoleta</h3>
-          <ul class="info-list">
-            <li><strong>Dirección:</strong> Juncal 1350, C1016 Cdad. Autónoma de Buenos Aires</li>
-            <li><strong>Teléfono:</strong> <a href="tel:+541141943899">011 15-4194-3899</a></li>
-            <li><strong>Horarios:</strong>
-              <ul class="hours-list">
-                <li><span>Lunes a viernes</span><span>10:00–19:00</span></li>
-                <li><span>Sábados</span><span>9:00–14:00</span></li>
-                <li><span>Domingos</span><span>Cerrado</span></li>
-              </ul>
-            </li>
-          </ul>
+          <p class="sucursal-address">Juncal 1350, C1016 CABA</p>
+          <dl class="record-list">
+            <div><dt>Tel.</dt><dd><a href="tel:+541141943899">011 15-4194-3899</a></dd></div>
+            <div><dt>Lun–vie</dt><dd>10:00–19:00</dd></div>
+            <div><dt>Sáb</dt><dd>9:00–14:00</dd></div>
+            <div><dt>Dom</dt><dd>Cerrado</dd></div>
+          </dl>
           <a href="https://wa.me/5491141943899?text=Hola!%20Vi%20la%20web%20de%20Madero%20Pets%20y%20quer%C3%ADa%20consultar" class="btn btn-primary" target="_blank" rel="noopener">Escribinos por WhatsApp</a>
           <div class="sucursal-map">
             <iframe title="Ubicación Madero Pets Recoleta" src="https://www.google.com/maps?q=Juncal+1350,+C1016+CABA,+Argentina&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -171,18 +181,15 @@
         </div>
 
         <div class="sucursal-card">
+          <img src="assets/img/logo.jpg" alt="" class="sucursal-seal" aria-hidden="true">
           <h3>Puerto Madero</h3>
-          <ul class="info-list">
-            <li><strong>Dirección:</strong> Juana Manso 1732, C1107 Cdad. Autónoma de Buenos Aires</li>
-            <li><strong>Teléfono:</strong> <a href="tel:+541167052420">011 15-6705-2420</a></li>
-            <li><strong>Horarios:</strong>
-              <ul class="hours-list">
-                <li><span>Lunes a viernes</span><span>10:00–19:00</span></li>
-                <li><span>Sábados</span><span>9:00–14:00</span></li>
-                <li><span>Domingos</span><span>Cerrado</span></li>
-              </ul>
-            </li>
-          </ul>
+          <p class="sucursal-address">Juana Manso 1732, C1107 CABA</p>
+          <dl class="record-list">
+            <div><dt>Tel.</dt><dd><a href="tel:+541167052420">011 15-6705-2420</a></dd></div>
+            <div><dt>Lun–vie</dt><dd>10:00–19:00</dd></div>
+            <div><dt>Sáb</dt><dd>9:00–14:00</dd></div>
+            <div><dt>Dom</dt><dd>Cerrado</dd></div>
+          </dl>
           <a href="https://wa.me/5491167052420?text=Hola!%20Vi%20la%20web%20de%20Madero%20Pets%20y%20quer%C3%ADa%20consultar" class="btn btn-primary" target="_blank" rel="noopener">Escribinos por WhatsApp</a>
           <div class="sucursal-map">
             <iframe title="Ubicación Madero Pets Puerto Madero" src="https://www.google.com/maps?q=Juana+Manso+1732,+C1107+CABA,+Argentina&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -199,7 +206,7 @@
   <div class="container footer-inner">
     <a href="#inicio" class="footer-brand">
       <img src="assets/img/logo.jpg" alt="Madero Pets" class="footer-logo">
-      <span>MADERO<b>PETS</b></span>
+      <span>Madero <em>Pets</em></span>
     </a>
     <div class="footer-links">
       <a href="https://www.instagram.com/maderopets.oficial/" target="_blank" rel="noopener">Instagram</a>
